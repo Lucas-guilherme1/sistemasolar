@@ -1,0 +1,91 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url(img/pexels-philippe-donn-1257860.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+main .container{
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr;
+    grid-template-rows:  1fr  1fr  1fr;
+    justify-items: center;
+    align-items: center;
+min-height: 100vh;
+
+}
+
+img{
+    object-fit: cover;
+    height: 160px;
+    cursor: pointer;
+}
+
+
+img:hover{
+
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 50px;
+}
+
+h1{
+
+    color: #efb710c0;
+    font-size: 100px;
+    font-family: 'Bebas Neue';
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media  (max-wid; 1200px) {
+
+    main .container{
+        display: grid;
+        grid-template-columns: 1fr  1fr  1fr;
+        grid-template-rows:  1fr  1fr  1fr;
+        justify-items: center;
+        align-items: center;
+    min-height: 80vh;
+    
+    }
+    
+    img{
+        object-fit: cover;
+        height: 120px;
+        cursor: pointer;
+    }
+    
+    
+    img:hover{
+    
+        background-color: rgba(0, 0, 0, 0.37);
+        border-radius: 50px;
+    }
+    
+    h1{
+    
+        color: #efb710c0;
+        font-size: 70px;
+        font-family: 'Bebas Neue';
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+}
